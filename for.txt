@@ -1,0 +1,8 @@
+for index in range(body_total - 1, 0, -1):
+        x = body_now[index-1].xcor()
+        y = body_now[index-1].ycor()
+        body_now[index].goto(x,y)
+
+
+
+        https://github.com/h-rub/tkinter-py.git

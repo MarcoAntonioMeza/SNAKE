@@ -1,0 +1,4 @@
+virtualenv --version
+virtualenv venv
+cd C:\Users\Mike\Desktop
+.\venv\Scripts\activate
