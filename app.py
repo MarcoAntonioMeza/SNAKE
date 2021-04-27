@@ -3,7 +3,7 @@ from random import randint
 from time import sleep
 score = 0
 high_score = 0
-delay = 0.10
+delay = 0.15
 #configuracion ventana
 ventana = turtle.Screen()
 ventana.title("Snake Python M.A.M.S")
@@ -119,12 +119,5 @@ while True:
         body_now[0].goto(x,y)
     sleep(delay)
         
-
-
-
-
-
     mover()
-
-
 turtle.mainloop()
